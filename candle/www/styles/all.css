@@ -1,0 +1,360 @@
+@font-face {
+  font-family: LemonChicken;
+  src: url("LEMONCHI.ttf");
+}
+
+body {
+    background-color: white;
+    border-style: solid;
+    border-radius: 2px;
+    font-family: sans-serif;
+}
+
+nav {
+  display: block;
+  background-color: #3c669d;
+  margin: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style-type: none;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+nav a {
+  display: inline-block;
+  padding: 15px;
+  text-decoration-line: none;
+  color: white;
+}
+
+nav a:hover {
+  color: grey;
+}
+
+nav ul li {
+  display: block;
+  font-family: sans-serif;
+  margin: 6px;
+}
+
+header {
+  background-image: url(../../content/images/logocropped.png);
+  background-color: #131165;
+  background-size: cover;
+  padding: 100px;
+  height: 30px;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+h1 {
+  padding: 0px;
+  margin-bottom: 20px;
+  margin-top: 0;
+  padding-top: 0;
+  text-transform: uppercase;
+  /*font-family: LemonChicken;*/
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+h2 {
+  font-family: LemonChicken;
+}
+
+h3 {
+  margin: 0%;
+  padding: 20px;
+  margin-left: 14%;
+  font-size: 25px;
+}
+
+h4 {
+  margin-left: 1%;
+  font-size: 20px;
+}
+
+p {
+  margin: 20px;
+}
+
+img {
+  box-shadow: 0 0 7px #000000;
+  margin: 25px;
+  position: relative;
+  justify-self: center;
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+footer {
+  background-color: #3c669d;
+  padding: 40px;
+  color: white;
+  margin: 0;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  color: #638fc8;
+}
+
+.source {
+  font-size: 8px;
+  font-family: sans-serif;
+  margin-left: 20px;
+}
+
+#footerImage {
+    width: 5%;
+    height: 5%;
+    display: block;
+    order: 1;
+}
+#footerText {
+    order: 2;
+}
+
+.headertitle {
+  margin-top: 0;
+  margin-left: 25%;
+  font-family: LemonChicken;
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.container {
+  margin: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  flex: 1;
+  margin: 0;
+  max-width: 450px;
+  margin-left: 11%;
+}
+
+.column2 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  flex: 1;
+  margin: 0;
+}
+
+/* Slideshow CSS */
+.slideshow {
+  width: 100%;
+  margin: auto;
+}
+
+.slideshowImageHolder {
+  width: 500px;
+  margin-left: 35%;
+  margin-left: 35%;
+}
+
+.slideshowButtonHolder {
+  margin-left: 53%;
+  height: 50px;
+  position: relative;
+  display: inline-block;
+  z-index: 0;
+}
+
+.slideshowNextButton {
+  width: 40px;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 0 3px 0 black;
+  position: absolute;
+  left: 100%;
+  cursor: pointer;
+  background-color: white;
+  border-color: #638fc8;
+  text-align: center;
+  color: black;
+  font-size: 16px;
+}
+
+.slideshowBackButton {
+  width: 40px;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 0 3px 0 black;
+  position: absolute;
+  right: 100%;
+  cursor: pointer;
+  background-color: white;
+  border-color: #638fc8;
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  margin-right: 120px;
+}
+
+.slideshowNextButton:hover{
+  background-color: #131165;
+  color: white;
+  border-color: #131165;
+}
+
+.slideshowBackButton:hover{
+  background-color: #131165;
+  color: white;
+  border-color: #131165;
+}
+
+#candleTitle{
+  margin-left: 38%;
+}
+
+/* Form CSS */
+.fdb-err {
+  box-shadow: 0 0 3px red;
+}
+
+.toggle {
+  box-shadow: none;
+}
+
+.hidden {
+  display: none !important;
+}
+
+#messageForm {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2.3em;
+}
+
+#messageForm div {
+  margin-top: 0.5em;
+  margin-left: 0.0em;
+}
+#messageForm textarea {
+  resize: none;
+  width: 400px;
+  height: 125px;
+}
+
+.submit {
+  width: 8em;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  background-color: white;
+  border-color: #638fc8;
+  text-align: center;
+  color: black;
+  padding: 0.6em;
+  font-size: 16px;
+}
+.radio {
+  margin-top: 1em;
+  position: relative;
+  cursor: pointer;
+  padding-left: 35px;
+  font-size: 20px;
+}
+
+.submit:hover {
+  background-color: #131165;
+  color: white;
+  border-color: #131165;
+}
+.errors {
+  color: red;
+}
+
+nav .navDropdown {
+  text-align: left;
+  background-color: #3c669d;
+  position: absolute;
+  width: 200px;
+  border-top-width: 0px;
+  display: flex;
+  flex-direction: column;
+  z-index: 99;
+}
+
+navigationItem:hover {
+  color: black;
+}
+
+
+@media (max-width: 675px) {
+
+  nav.navDropdown {
+    display: none !important;
+  }
+
+  nav a:hover {
+    color: grey;
+  }
+
+  form label {
+      display: block;
+  }
+
+  form label {
+      display: block;
+  }
+
+  form input {
+      display: block;
+  }
+
+  form textarea {
+      max-width: 95%;
+  }
+
+  nav ul {
+      display: block;
+      border-style: solid;
+      border-color: white;
+  }
+  .headertitle {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    margin-right: 15px;
+  }
+  .slideshow {
+      width: 100%;
+  }
+
+  .slideshowImageHolder {
+      width: 50%;
+  }
+
+  header {
+    height: 70px;
+  }
+
+  @media (max-width: 400px) {
+    .headertitle {
+      font-size: 30px;
+    }
+  }
+}

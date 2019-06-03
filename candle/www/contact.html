@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Copper Lotus Candles </title>
+
+        <link rel="stylesheet" type="text/css" href="styles/all.css" media="all">
+        <script type="text/javascript" src="scripts/jquery-3.3.1.min.js"></script>
+         <script type="text/javascript" src="scripts/dropdown.js"></script>
+        <script src="scripts/validation.js" type="text/javascript"></script>
+        <script src="scripts/formchoice.js" type="text/javascript"></script>
+
+    </head>
+    <body>
+        <header>
+          <div class="headertitle"> Copper Lotus Candles </div>
+        </header>
+        <nav>
+          <ul>
+            <li class= "navigationItem" > <a href = "index.html">Home</a></li>
+            <li class= "navigationItem"> <a href = "about.html">About</a>
+            <li class= "navigationItem">
+              <a href = "products.html" id = "productsNavigationItem"> Products</a>
+              <ul id="productsDropdown" class="navDropdown hidden">
+                <li><a href = "products.html#one">Blackberry Green Tea</a></li>
+                <li><a href = "products.html#four">Honey Chamomile Tea </a></li>
+                <li><a href = "products.html#two">Hazelnut Chai </a></li>
+                <li><a href = "products.html#five">Jasmine Green Tea </a></li>
+                <li><a href = "products.html#three">Lavender London Fog</a></li>
+                <li><a href = "products.html#six">Chantilly Cream</a></li>
+              </ul>
+            <li class=navigationItem> <a href = "shipping.html"> Shipping and Returns </a></li>
+            <li class= "navigationItem" > <a href = "contact.html"> Contact </a></li>
+          </ul>
+        </nav>
+
+
+    <h1>Contact Us:</h1>
+    <form id="messageForm" method="post" action="https://www.cs.cornell.edu/courses/cs1300/2018fa/submit.php" novalidate>
+      <div>
+        <label for="userName">Name </label>
+        <div>
+          <input id="userName" name="userName" class="toggle fdb-err" placeholder="" required/>
+          <span class="hidden errors" id="nameError"> Name is required.</span>
+        </div>
+      </div>
+
+      <div>
+        <label for="userEmail">Email </label>
+        <div>
+          <input type="email" id="userEmail" name="userEmail" class="toggle fdb-err" required/>
+          <span class="hidden errors" id="emailError"> A valid email is required.</span>
+        </div>
+      </div>
+      <label>
+        <input type="radio" class="radio" name="choice" value="review"/>Post a Review
+      </label>
+
+      <label>
+        <input type="radio" class="radio" name="choice" value="message"/>Send a question, comment, or special order
+    </label>
+
+      <div id="message" class="hidden">
+        <label id ="commentLabel" for="comment">Please enter your message </label>
+        <div>
+          <textarea id="comment" name="comment" class="toggle fdb-err" required></textarea>
+        </div>
+      </div>
+      <span class="hidden errors" id="commentError"> Message is required. </span>
+      <div id="review" class="hidden">
+        <label for="select"></label>
+        <select id="select" required>
+          <option value="" selected disabled>Please choose review product</option>
+          <option value="c1">Blackberry Green Tea</option>
+          <option value="c2">Honey Chamomile Tea</option>
+          <option value="c3">Hazelnut Chai</option>
+          <option value="c4">Jasmine Green Tea</option>
+          <option value="c5">Lavender London Frog</option>
+          <option value="c6">Chantilly Cream</option>
+        </select>
+        <span class="errors hidden" id="selectError"> Please select a product. </span>
+        <div>
+          <textarea id="reviewtext" name="review" class="toggle fdb-err" required></textarea>
+          <span class="hidden errors" id="reviewError"> Please enter your review here!</span>
+        </div>
+      </div>
+      <button class="hidden submit" type="submit">Submit</button>
+    </form>
+    <footer>
+        <img id = "footerImage" src = "images/smalllogo.jpg" alt = "Small Logo">
+      <p id = "footerText">To purchase any of our products, click <a href="https://www.etsy.com/shop/CopperLotusCandles">here</a>.
+
+      For any inquiries, special orders, or to leave a review, visit the Contact Us page, <a href="contact.html">here</a>.</p>
+    </footer>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+Added extension for creating additional waves:
+
+This is done by creating new wave objects after one wave is completely destroyed in app.py. In addition,
+the next wave will have a faster speed than the wave before it. This speed continues until it stops at a
+certain playable speed. The speed is adjusted in wave.py and is an attribute of the wave class.
+
+Added extension for scoring:
+
+This is done by creating new score attributes in app.py and wave.py. If an alien object is destroyed in
+a wave, a certain amount of points will accumulate. These points will depend on how far the alien is from
+the ship, with farther aliens rewarding more points. These points accumulate in the wave class, and the
+score attribute in app.py contains the total points for the game. The score attribute in app.py is used to
+create a GLabel object, which shows up on the top right of the screen. Once a new wave is created, the score
+attribute for wave.py is reset, while score attribute for app.py is not reset. This maintains scores across
+waves until the game ends.
