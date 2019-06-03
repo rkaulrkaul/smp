@@ -1,0 +1,708 @@
+/* INCLUDE STYLING */
+
+header{
+  display:flex;
+  flex-direction: row;
+}
+
+header img {
+  padding-bottom: 10pt;
+  width: auto;
+  margin-left: 50%;
+}
+
+
+/*NAV BAR STYLING*/
+nav {
+  border: solid 2px cornflowerblue;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 0%;
+  margin-left: 10%;
+  width: 100%;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+nav ul {
+  padding: 0;
+  text-align: center;
+  margin-top: 2.5%;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0px;
+  margin-top: 5px;
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav a {
+  text-decoration: none;
+  margin: auto;
+  padding: 1em;
+  color: black;
+  display: block;
+}
+
+#logo{
+  height:150px;
+  display: block;
+  margin-left: 5%;
+  margin-right: auto;
+}
+
+#current_nav {
+  background-color: cornflowerblue;
+}
+
+nav li:hover {
+  background-color: rgb(179, 203, 248)  !important;;
+}
+
+/*FOOTER STYLING */
+.footer-sources{
+  text-align: center
+}
+
+.footercontent {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: block;
+}
+
+footer {
+  bottom: 0;
+}
+
+.socialmedia {
+  width: auto;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sm {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* INDEX.PHP STYLING */
+
+#del_anno {
+  margin-left: 50%;
+  margin-bottom: 2%;
+}
+
+#frontphoto{
+  text-align: center;
+}
+#announcebox{
+  padding: 20px 20px 0px 20px;
+  background-color: white;
+  border-color: #012AC2;
+	border-style: solid;
+	border-width: 1px;
+  border-radius: 5px;
+  width: 70%;
+  margin-left: 7%;
+  margin-bottom: 5%;
+}
+
+#announcement {
+  resize: none;
+}
+
+#announcement #name {
+  padding-right: 2px;
+}
+
+#announcement div {
+  margin-top: 3%;
+  margin-left: 15%;
+}
+
+#thelogo{
+  text-align: center
+}
+#logo{
+  height:150px;
+}
+
+#main{
+  display: flex;
+  flex-direction: row;
+
+}
+
+#left{
+  display: flex;
+  flex-direction: row;
+  background-color: cornflowerblue;
+  padding:20px;
+  width:20%;
+}
+
+#right{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(179, 203, 248);
+  padding:20px;
+  width: 80%;
+  flex-wrap: wrap;
+
+
+}
+
+#div1{
+  flex: 1;
+	margin: 20px;
+	background-color: #9CC9F3;
+	border-color: #012AC2;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 5px;
+	padding:2%;
+  text-align: center;
+
+}
+
+
+#bottom{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.card-title{
+  color: #4f4f4f;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 5px;
+	padding: 0;
+}
+#fade-in-div{
+  transition: 1s;
+  text-align: center;
+  transition : 1s;
+  -webkit-transition: 1s;
+  opacity: 0;
+}
+
+#div2{
+  flex: 1;
+  margin: 20px;
+	background-color: #9CC9F3;
+	border-color: #012AC2;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 5px;
+  padding:2%;
+  text-align: center;
+  transition : 2s;
+  -webkit-transition: 2s;
+  opacity: 0;
+}
+#div3{
+  flex: 1;
+  margin: 20px;
+	background-color: #9CC9F3;
+	border-color: #012AC2;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 5px;
+	padding:2%;
+  text-align: center;
+  transition : 3s;
+  -webkit-transition: 3s;
+  opacity: 0;
+}
+#div4{
+  flex: 1;
+  margin: 20px;
+	background-color: #9CC9F3;
+	border-color: #012AC2;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 5px;
+	padding:2%;
+  text-align: center;
+  transition : 4s;
+  -webkit-transition: 4s;
+  opacity: 0;
+}
+.card-title{
+  color: #4f4f4f;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 5px;
+	padding: 0;
+}
+
+
+/* ALBUMS.PHP STYLING */
+
+
+#cite{
+
+  margin-left: 35px;
+}
+
+aside {
+  width:100%;
+  min-width: 230px;
+}
+
+#add_album{
+  border-style: solid;
+  border-color:cornflowerblue;
+  border-width: 3px;
+  background-color: rgb(179, 203, 248);
+  padding: 10px;
+  width: 75%;
+  margin-right: auto;
+}
+#add_album p{
+  margin-top: 0;
+
+}
+#main2 {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  background-color: rgb(179, 203, 248);
+}
+
+#left2{
+  background-color: cornflowerblue;
+  display:flex;
+  justify-content: center;
+  padding: 20px 0px 20px 30px;
+  min-width: 200px;
+  flex-grow: 1;
+  position: sticky;
+  top: 0;
+  height: 100%;
+
+}
+
+#right2{
+  background-color: rgb(179, 203, 248);
+  padding:20px;
+  flex-grow: 25;
+  height: 100%;
+
+}
+
+#album_box {
+  padding:20px;
+  flex-grow: 25;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+  align-items:center;
+  width:100%;
+
+}
+
+#above-album-box{
+  /* border-color: red; */
+	/* border-style: solid; */
+  /* border-width: 2px; */
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+#uploaddiv {
+  border-style: solid;
+  border-color:cornflowerblue;
+  border-width: 3px;
+  background-color: white;
+  padding: 5px;
+  /* margin-right: 0px; */
+}
+#uploaddiv label {
+  /* background-color: yellow; */
+  margin-top: 0;
+  display: block;
+}
+#uploaddiv button{
+  margin-top: 2%;
+}
+
+.photo_box {
+  flex-grow: 1;
+  flex-basis: 30%;
+
+}
+
+.photo_box img {
+  width:300px;
+  height: 350px;
+  margin:10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+#left2 ul {
+  background-color: rgb(179, 203, 248);
+  padding: 0;
+  font-size: 0;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  margin-top: 5%;
+  position: sticky;
+  top: 0;
+  border-radius: 25% 0% 0% 25%;
+  width:100%;
+}
+.current_album {
+  background-color: cornflowerblue;
+
+}
+#left2 ul li {
+  font-size: 20px;
+  margin: 10% 6% 10% 0%;
+  padding: 0px;
+}
+
+#left2 a {
+  text-decoration: none;
+  display: block;
+  margin-left: 10%;
+  padding: 0.3em;
+}
+
+#left2 ul li:hover {
+  background-color: cornflowerblue;
+}
+
+
+#right2 img {
+  border-radius: 10%;
+  }
+
+  @keyframes fade-in {
+    from {opacity: 0; transform: scale(.7,.7)}
+    to {opacity: 1;}
+}
+.fade-in-element {
+  animation: fade-in 1.4s;
+}
+/* IMAGE.PHP STYLING */
+
+#solo_image{
+  text-align: right;
+  display: block;
+}
+
+#solo_image img{
+  width: 70%;
+  height: 100%;
+  margin-left: 30%;
+}
+
+#image_main {
+  background-color: rgb(179, 203, 248);
+  margin: auto;
+  display: flex;
+
+}
+
+#l_img {
+  flex-basis: 65%;
+
+}
+
+#button_containers {
+padding: 10%;
+}
+
+#r_img {
+  flex-basis: 35%;
+}
+
+#r_img button {
+  margin-bottom: 5%;
+  padding: 0%;
+  height: 2em;
+}
+
+#r_img a{
+  text-decoration: none;
+  padding: 2em;
+}
+
+#del_button{
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: auto;
+}
+
+#delete_photo{
+  text-align: left;
+  padding: 0%;
+}
+
+#delete_photo button {
+  padding: 1.5em;
+}
+
+p{
+  font-weight: bold
+}
+
+#link {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: auto;
+}
+
+
+/* APPLY.PHP STYLING */
+
+h1{
+  text-align: center;
+}
+
+#appform {
+  font-weight: bold;
+  text-align: left
+}
+
+#app {
+  border: solid 15px cornflowerblue;
+  background-color: rgb(179, 203, 248);
+}
+
+#app h1 {
+  background-color: rgb(179, 203, 248);
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  margin-top: 0%;
+}
+
+#appform {
+  padding: 0% 5% 0% 5%;
+}
+
+#appform label {
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  min-height: 33px;
+
+}
+
+.textbox {
+  width: 90%;
+  height: 150px;
+  resize: none;
+}
+
+#app_container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  border-style: solid;
+  border-color: cornflowerblue;
+  border-width: 3pt;
+  margin-bottom: 5%;
+}
+
+#app_submit {
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+#app_container div {
+  flex-basis: 45%;
+  padding-bottom: 2%;
+  margin-left: 5%;
+  padding-top: 1%;
+}
+
+
+#radio{
+  display:block
+}
+
+.hidden{
+  display: none;
+}
+
+.error_msg {
+  color: red;
+}
+
+input[type=radio]:checked
+
+/* FEEDBACK PAGE STYLING */
+#forms{
+  display: flex;
+  flex-direction:column;
+  justify-content: space-evenly;
+}
+#addprogramForm {
+  text-align: center;
+  background-color: white;
+  width: 400px;
+  padding:20px;
+  margin:20px;
+  border-style: solid;
+  border-color: cornflowerblue;
+  border-width: 3pt;
+}
+
+
+
+
+
+#top{
+  display: flex;
+  flex-direction: row;
+  display: inline-block;
+
+
+}
+
+#comment-main {
+  border: solid 15px cornflowerblue;
+  background-color: rgb(179, 203, 248);
+}
+#side {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+#FeedbackForm {
+  background-color: white;
+  width: 400px;
+  padding:20px;
+  margin:20px;
+  border-style: solid;
+  border-color: cornflowerblue;
+  border-width: 3pt;
+}
+#comment{
+  display:block;
+  width: 90%;
+  height: 50px;
+}
+.center{
+  text-align: center;
+}
+.bold{
+  font-weight: bold;
+}
+#side p {
+  text-align: left;
+}
+
+#with-table{
+  background-color: white;
+  border-style: solid;
+  border-color: cornflowerblue;
+  border-width: 3pt;
+  width: 50%;
+  margin:20pt;
+  padding:20pt;
+}
+table{
+  background-color: white;
+  border-style: solid;
+  border-color: cornflowerblue;
+  border-width: 3px;
+  border-collapse: collapse;
+  width: auto;
+  margin:20pt;
+  padding:20pt;
+}
+
+th, td{
+  border: 1px solid cornflowerblue;
+  text-align: center;
+  padding: 10px;
+  width: 10%;
+}
+th{
+  background-color:cornflowerblue;
+
+}
+tr:hover {
+  background-color: rgb(179, 203, 248);
+}
+
+.confirmation{
+  border: solid 2px cornflowerblue;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-right: 10%;
+  margin-left: 10%;
+  text-align: center;
+}
+
+.inline{
+  display:inline;
+}
+
+
+/* LOGIN.PHP STYLING */
+
+
+body{
+  width: 99%;
+  overflow: auto;
+}
+
+#loginpage{
+    border: solid 15px cornflowerblue;
+    background-color: rgb(179, 203, 248);
+    padding:30px;
+    padding-bottom: 250px
+}
+
+#login_form{
+  background-color: white;
+  border-style: solid;
+  border-color: cornflowerblue;
+  border-width: 3px;
+  border-collapse: collapse;
+  width: auto;
+  margin:20pt;
+  padding:20pt;
+}
+#login_form ul{
+  text-align: center;
+  margin-left: auto;
+
+
+}
+
+#login_form ul li{
+  display: inline-block;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+
+}
